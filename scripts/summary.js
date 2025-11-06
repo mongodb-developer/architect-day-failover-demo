@@ -21,3 +21,5 @@ function rsSummary() {
     print("\nNo primary detected in the current replica set status.");
   }
 }
+
+rsSummary();
