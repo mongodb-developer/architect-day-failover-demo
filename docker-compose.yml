@@ -1,6 +1,6 @@
 services:
   mongo0:
-    image: andrewmorgan818/mongodb-replication-demo:latest
+    image: andrewmorgan818/mongodb-repl-custom:latest
     container_name: mongo0
     hostname: mongo0
     volumes:
@@ -36,7 +36,7 @@ services:
     restart: no
 
   mongo1:
-    image: andrewmorgan818/mongodb-replication-demo:latest
+    image: andrewmorgan818/mongodb-repl-custom:latest
     container_name: mongo1
     hostname: mongo1
     volumes:
@@ -62,7 +62,7 @@ services:
     restart: no
 
   mongo2:
-    image: andrewmorgan818/mongodb-replication-demo:latest
+    image: andrewmorgan818/mongodb-repl-custom:latest
     container_name: mongo2
     hostname: mongo2
     volumes:
@@ -88,7 +88,7 @@ services:
     restart: no
 
   analytics:
-    image: andrewmorgan818/mongodb-replication-demo:latest
+    image: andrewmorgan818/mongodb-repl-custom:latest
     container_name: analytics
     hostname: analytics
     volumes:
@@ -114,7 +114,7 @@ services:
     restart: no
 
   app0:
-    image: andrewmorgan818/mongodb-replication-demo:latest
+    image: andrewmorgan818/mongodb-repl-custom:latest
     container_name: app0
     hostname: app0
     volumes:
